@@ -9,4 +9,7 @@ RSpec.describe StringCalculator do
     expect(StringCalculator.add("1,5")).to eq(6)
   end
 
+  it 'returns sum of any number of numbers' do
+    expect(StringCalculator.add("1,2,5")).to eq(8)
+  end
 end
