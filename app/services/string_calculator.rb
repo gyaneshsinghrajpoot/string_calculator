@@ -1,6 +1,5 @@
 class StringCalculator
   def self.add(numbers)
-    p numbers
-    return 0 if numbers.strip == ""
+    return 0 if numbers.empty?
   end
 end 
